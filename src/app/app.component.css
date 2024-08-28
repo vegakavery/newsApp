@@ -81,4 +81,9 @@ body {
   font-size: 20px;
   color: #ddd;
   }
+
+  .parent{
+    display: grid;
+    grid-template-columns: minmax(10px, 20px) 1fr;
+  }
   

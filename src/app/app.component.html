@@ -29,7 +29,7 @@
     </mat-list>
   </mat-sidenav>
 
-
+<div class="parent">
   <div class="container">
     <div class="row">
       <div class="col-md-6 my-5" *ngFor="let article of (mArticles$ | async)?.articles; index as i">
@@ -58,4 +58,5 @@
       </div>
     </div>
   </div>
+</div>
 </mat-sidenav-container>
